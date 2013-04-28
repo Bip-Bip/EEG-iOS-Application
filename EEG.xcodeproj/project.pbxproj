@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6702A7D172CBAEC00C3ADAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6702A7C172CBAEC00C3ADAF /* UIKit.framework */; };
+		C6702A7F172CBAEC00C3ADAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6702A7E172CBAEC00C3ADAF /* Foundation.framework */; };
+		C6702A81172CBAEC00C3ADAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6702A80172CBAEC00C3ADAF /* CoreGraphics.framework */; };
+		C6702A87172CBAEC00C3ADAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6702A85172CBAEC00C3ADAF /* InfoPlist.strings */; };
+		C6702A89172CBAEC00C3ADAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6702A88172CBAEC00C3ADAF /* main.m */; };
+		C6702A8D172CBAEC00C3ADAF /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6702A8C172CBAEC00C3ADAF /* XYZAppDelegate.m */; };
+		C6702A8F172CBAEC00C3ADAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C6702A8E172CBAEC00C3ADAF /* Default.png */; };
+		C6702A91172CBAEC00C3ADAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6702A90172CBAEC00C3ADAF /* Default@2x.png */; };
+		C6702A93172CBAEC00C3ADAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6702A92172CBAEC00C3ADAF /* Default-568h@2x.png */; };
+		C6702A96172CBAEC00C3ADAF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6702A94172CBAEC00C3ADAF /* MainStoryboard_iPhone.storyboard */; };
+		C6702A99172CBAEC00C3ADAF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6702A97172CBAEC00C3ADAF /* MainStoryboard_iPad.storyboard */; };
+		C6702A9C172CBAEC00C3ADAF /* XYZMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6702A9B172CBAEC00C3ADAF /* XYZMasterViewController.m */; };
+		C6702A9F172CBAEC00C3ADAF /* XYZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6702A9E172CBAEC00C3ADAF /* XYZDetailViewController.m */; };
+		C6702AA7172CBAEC00C3ADAF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6702AA6172CBAEC00C3ADAF /* SenTestingKit.framework */; };
+		C6702AA8172CBAEC00C3ADAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6702A7C172CBAEC00C3ADAF /* UIKit.framework */; };
+		C6702AA9172CBAEC00C3ADAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6702A7E172CBAEC00C3ADAF /* Foundation.framework */; };
+		C6702AB1172CBAEC00C3ADAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6702AAF172CBAEC00C3ADAF /* InfoPlist.strings */; };
+		C6702AB4172CBAEC00C3ADAF /* EEGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6702AB3172CBAEC00C3ADAF /* EEGTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6702AAA172CBAEC00C3ADAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6702A71172CBAEB00C3ADAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6702A78172CBAEC00C3ADAF;
+			remoteInfo = EEG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6702A79172CBAEC00C3ADAF /* EEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6702A7C172CBAEC00C3ADAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6702A7E172CBAEC00C3ADAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6702A80172CBAEC00C3ADAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6702A84172CBAEC00C3ADAF /* EEG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EEG-Info.plist"; sourceTree = "<group>"; };
+		C6702A86172CBAEC00C3ADAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6702A88172CBAEC00C3ADAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6702A8A172CBAEC00C3ADAF /* EEG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EEG-Prefix.pch"; sourceTree = "<group>"; };
+		C6702A8B172CBAEC00C3ADAF /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		C6702A8C172CBAEC00C3ADAF /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		C6702A8E172CBAEC00C3ADAF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C6702A90172CBAEC00C3ADAF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C6702A92172CBAEC00C3ADAF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C6702A95172CBAEC00C3ADAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C6702A98172CBAEC00C3ADAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C6702A9A172CBAEC00C3ADAF /* XYZMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZMasterViewController.h; sourceTree = "<group>"; };
+		C6702A9B172CBAEC00C3ADAF /* XYZMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZMasterViewController.m; sourceTree = "<group>"; };
+		C6702A9D172CBAEC00C3ADAF /* XYZDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZDetailViewController.h; sourceTree = "<group>"; };
+		C6702A9E172CBAEC00C3ADAF /* XYZDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZDetailViewController.m; sourceTree = "<group>"; };
+		C6702AA5172CBAEC00C3ADAF /* EEGTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EEGTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6702AA6172CBAEC00C3ADAF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6702AAE172CBAEC00C3ADAF /* EEGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EEGTests-Info.plist"; sourceTree = "<group>"; };
+		C6702AB0172CBAEC00C3ADAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6702AB2172CBAEC00C3ADAF /* EEGTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEGTests.h; sourceTree = "<group>"; };
+		C6702AB3172CBAEC00C3ADAF /* EEGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEGTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6702A76172CBAEC00C3ADAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6702A7D172CBAEC00C3ADAF /* UIKit.framework in Frameworks */,
+				C6702A7F172CBAEC00C3ADAF /* Foundation.framework in Frameworks */,
+				C6702A81172CBAEC00C3ADAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6702AA1172CBAEC00C3ADAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6702AA7172CBAEC00C3ADAF /* SenTestingKit.framework in Frameworks */,
+				C6702AA8172CBAEC00C3ADAF /* UIKit.framework in Frameworks */,
+				C6702AA9172CBAEC00C3ADAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6702A70172CBAEB00C3ADAF = {
+			isa = PBXGroup;
+			children = (
+				C6702A82172CBAEC00C3ADAF /* EEG */,
+				C6702AAC172CBAEC00C3ADAF /* EEGTests */,
+				C6702A7B172CBAEC00C3ADAF /* Frameworks */,
+				C6702A7A172CBAEC00C3ADAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6702A7A172CBAEC00C3ADAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6702A79172CBAEC00C3ADAF /* EEG.app */,
+				C6702AA5172CBAEC00C3ADAF /* EEGTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6702A7B172CBAEC00C3ADAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6702A7C172CBAEC00C3ADAF /* UIKit.framework */,
+				C6702A7E172CBAEC00C3ADAF /* Foundation.framework */,
+				C6702A80172CBAEC00C3ADAF /* CoreGraphics.framework */,
+				C6702AA6172CBAEC00C3ADAF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6702A82172CBAEC00C3ADAF /* EEG */ = {
+			isa = PBXGroup;
+			children = (
+				C6702A8B172CBAEC00C3ADAF /* XYZAppDelegate.h */,
+				C6702A8C172CBAEC00C3ADAF /* XYZAppDelegate.m */,
+				C6702A94172CBAEC00C3ADAF /* MainStoryboard_iPhone.storyboard */,
+				C6702A97172CBAEC00C3ADAF /* MainStoryboard_iPad.storyboard */,
+				C6702A9A172CBAEC00C3ADAF /* XYZMasterViewController.h */,
+				C6702A9B172CBAEC00C3ADAF /* XYZMasterViewController.m */,
+				C6702A9D172CBAEC00C3ADAF /* XYZDetailViewController.h */,
+				C6702A9E172CBAEC00C3ADAF /* XYZDetailViewController.m */,
+				C6702A83172CBAEC00C3ADAF /* Supporting Files */,
+			);
+			path = EEG;
+			sourceTree = "<group>";
+		};
+		C6702A83172CBAEC00C3ADAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6702A84172CBAEC00C3ADAF /* EEG-Info.plist */,
+				C6702A85172CBAEC00C3ADAF /* InfoPlist.strings */,
+				C6702A88172CBAEC00C3ADAF /* main.m */,
+				C6702A8A172CBAEC00C3ADAF /* EEG-Prefix.pch */,
+				C6702A8E172CBAEC00C3ADAF /* Default.png */,
+				C6702A90172CBAEC00C3ADAF /* Default@2x.png */,
+				C6702A92172CBAEC00C3ADAF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6702AAC172CBAEC00C3ADAF /* EEGTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6702AB2172CBAEC00C3ADAF /* EEGTests.h */,
+				C6702AB3172CBAEC00C3ADAF /* EEGTests.m */,
+				C6702AAD172CBAEC00C3ADAF /* Supporting Files */,
+			);
+			path = EEGTests;
+			sourceTree = "<group>";
+		};
+		C6702AAD172CBAEC00C3ADAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6702AAE172CBAEC00C3ADAF /* EEGTests-Info.plist */,
+				C6702AAF172CBAEC00C3ADAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6702A78172CBAEC00C3ADAF /* EEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6702AB7172CBAEC00C3ADAF /* Build configuration list for PBXNativeTarget "EEG" */;
+			buildPhases = (
+				C6702A75172CBAEC00C3ADAF /* Sources */,
+				C6702A76172CBAEC00C3ADAF /* Frameworks */,
+				C6702A77172CBAEC00C3ADAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EEG;
+			productName = EEG;
+			productReference = C6702A79172CBAEC00C3ADAF /* EEG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6702AA4172CBAEC00C3ADAF /* EEGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6702ABA172CBAEC00C3ADAF /* Build configuration list for PBXNativeTarget "EEGTests" */;
+			buildPhases = (
+				C6702AA0172CBAEC00C3ADAF /* Sources */,
+				C6702AA1172CBAEC00C3ADAF /* Frameworks */,
+				C6702AA2172CBAEC00C3ADAF /* Resources */,
+				C6702AA3172CBAEC00C3ADAF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6702AAB172CBAEC00C3ADAF /* PBXTargetDependency */,
+			);
+			name = EEGTests;
+			productName = EEGTests;
+			productReference = C6702AA5172CBAEC00C3ADAF /* EEGTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6702A71172CBAEB00C3ADAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Quentin Le Corre";
+			};
+			buildConfigurationList = C6702A74172CBAEB00C3ADAF /* Build configuration list for PBXProject "EEG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6702A70172CBAEB00C3ADAF;
+			productRefGroup = C6702A7A172CBAEC00C3ADAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6702A78172CBAEC00C3ADAF /* EEG */,
+				C6702AA4172CBAEC00C3ADAF /* EEGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6702A77172CBAEC00C3ADAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6702A87172CBAEC00C3ADAF /* InfoPlist.strings in Resources */,
+				C6702A8F172CBAEC00C3ADAF /* Default.png in Resources */,
+				C6702A91172CBAEC00C3ADAF /* Default@2x.png in Resources */,
+				C6702A93172CBAEC00C3ADAF /* Default-568h@2x.png in Resources */,
+				C6702A96172CBAEC00C3ADAF /* MainStoryboard_iPhone.storyboard in Resources */,
+				C6702A99172CBAEC00C3ADAF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6702AA2172CBAEC00C3ADAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6702AB1172CBAEC00C3ADAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6702AA3172CBAEC00C3ADAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6702A75172CBAEC00C3ADAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6702A89172CBAEC00C3ADAF /* main.m in Sources */,
+				C6702A8D172CBAEC00C3ADAF /* XYZAppDelegate.m in Sources */,
+				C6702A9C172CBAEC00C3ADAF /* XYZMasterViewController.m in Sources */,
+				C6702A9F172CBAEC00C3ADAF /* XYZDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6702AA0172CBAEC00C3ADAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6702AB4172CBAEC00C3ADAF /* EEGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6702AAB172CBAEC00C3ADAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6702A78172CBAEC00C3ADAF /* EEG */;
+			targetProxy = C6702AAA172CBAEC00C3ADAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6702A85172CBAEC00C3ADAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6702A86172CBAEC00C3ADAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6702A94172CBAEC00C3ADAF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6702A95172CBAEC00C3ADAF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C6702A97172CBAEC00C3ADAF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6702A98172CBAEC00C3ADAF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C6702AAF172CBAEC00C3ADAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6702AB0172CBAEC00C3ADAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6702AB5172CBAEC00C3ADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6702AB6172CBAEC00C3ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6702AB8172CBAEC00C3ADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EEG/EEG-Prefix.pch";
+				INFOPLIST_FILE = "EEG/EEG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6702AB9172CBAEC00C3ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EEG/EEG-Prefix.pch";
+				INFOPLIST_FILE = "EEG/EEG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6702ABB172CBAEC00C3ADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EEG.app/EEG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EEG/EEG-Prefix.pch";
+				INFOPLIST_FILE = "EEGTests/EEGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C6702ABC172CBAEC00C3ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EEG.app/EEG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EEG/EEG-Prefix.pch";
+				INFOPLIST_FILE = "EEGTests/EEGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6702A74172CBAEB00C3ADAF /* Build configuration list for PBXProject "EEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6702AB5172CBAEC00C3ADAF /* Debug */,
+				C6702AB6172CBAEC00C3ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6702AB7172CBAEC00C3ADAF /* Build configuration list for PBXNativeTarget "EEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6702AB8172CBAEC00C3ADAF /* Debug */,
+				C6702AB9172CBAEC00C3ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6702ABA172CBAEC00C3ADAF /* Build configuration list for PBXNativeTarget "EEGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6702ABB172CBAEC00C3ADAF /* Debug */,
+				C6702ABC172CBAEC00C3ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6702A71172CBAEB00C3ADAF /* Project object */;
+}
